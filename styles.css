@@ -1,0 +1,35 @@
+body {
+    background-color: #d0edfa;
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.code-holder {
+    border: solid 3px hsl(216, 15%, 48%);
+    border-radius: 10px;
+    box-shadow: hsl(216, 15%, 48%) 5px 5px 5px 0px;
+    width: 20rem;
+    height: 28rem;
+    padding: 6px;
+    text-align: center;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    margin-inline: auto;
+}
+
+footer {
+    padding-top: 5px;
+}
+
