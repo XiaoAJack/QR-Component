@@ -2,6 +2,19 @@ body {
     background-color: #d0edfa;
 }
 
+@font-face {
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+
+@media screen and (max-width: 375px) {
+    .card-holder {
+        margin-inline: auto;
+    }
+}
+
+
 p {
     color: hsl(216, 15%, 48%);
 }
@@ -14,10 +27,11 @@ img {
     height: 300px;
     width: 300px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .code-holder {
-    border: solid 3px hsl(216, 15%, 48%);
+    font-family: Outfit;
     border-radius: 10px;
     box-shadow: hsl(216, 15%, 48%) 5px 5px 5px 0px;
     width: 20rem;
@@ -27,6 +41,8 @@ img {
     font-size: 15px;
     background-color: hsl(0, 0%, 100%);
     margin-inline: auto;
+    max-height: auto;
+    max-width: auto;
 }
 
 footer {
